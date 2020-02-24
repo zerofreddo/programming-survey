@@ -9,7 +9,13 @@ $(document).ready(function() {
     var score = q1 + q2 + q3 + q4 + q5;
     if (score <=5) {
       $(".javascript").show();
-    }
+    } else if (score >=6 && score <=10) {
+      $(".python").show();
+    } else if (score > 10 && score <=13 ) {
+      $(".c").show();
+    } else if (score >13 ) {
+      $(".Smalltalk").show();
+    };
 
   });
 });
