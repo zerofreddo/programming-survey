@@ -15,43 +15,58 @@
     </div>
   </div>
   <div class="body">
-    <form name="quiz" onsubmit="return onSubmit()">
+    <form id="quiz">
       <div class="question">
         <h1>Which language have you heard the most of?</h1>
-        <input type="radio" name="q1" value="a">a. JavaScript<br>
-        <input type="radio" name="q1" value="b">b. Smalltalk<br>
-        <input type="radio" name="q1" value="c">a. C#<br>
-        <input type="radio" name="q1" value="d">a. Python<br>
+        <input type="radio" name="q1" value="1">a. JavaScript<br>
+        <input type="radio" name="q1" value="2">b. Smalltalk<br>
+        <input type="radio" name="q1" value="3">c. C#<br>
+        <input type="radio" name="q1" value="4">d. Python<br>
       </div>
       <div class="question">
         <h1>what is your coding experience?</h1>
-        <input type="radio" name="q2" value="a">a. Beginner<br>
-        <input type="radio" name="q2" value="b">b. Intermediate<br>
-        <input type="radio" name="q2" value="c">a. Advanced<br>
-        <input type="radio" name="q2" value="d">a. Master<br>
+        <input type="radio" name="q2" value="1">a. Beginner<br>
+        <input type="radio" name="q2" value="2">b. Intermediate<br>
+        <input type="radio" name="q2" value="3">c. Advanced<br>
+        <input type="radio" name="q2" value="4">d. Master<br>
       </div>
       <div class="question">
         <h1>How long have you been coding?</h1>
-        <input type="radio" name="q3" value="a">a. three months or less<br>
-        <input type="radio" name="q3" value="b">b. one year or less<br>
-        <input type="radio" name="q3" value="c">c. two years or less<br>
-        <input type="radio" name="q3" value="d">d. more than five years<br>
+        <input type="radio" name="q3" value="1">a. three months or less<br>
+        <input type="radio" name="q3" value="2">b. one year or less<br>
+        <input type="radio" name="q3" value="3">c. two years or less<br>
+        <input type="radio" name="q3" value="4">d. more than five years<br>
       </div>
       <div class="question">
         <h1>Do you pick up coding easily?</h1>
-        <input type="radio" name="q4" value="a">a. Yes<br>
-        <input type="radio" name="q4" value="b">b. No<br>
-        <input type="radio" name="q4" value="c">c. Somewhat<br>
-        <input type="radio" name="q4" value="d">d. My fingers always hurt<br>
+        <input type="radio" name="q4" value="1">a. Yes<br>
+        <input type="radio" name="q4" value="2">b. No<br>
+        <input type="radio" name="q4" value="3">c. Somewhat<br>
+        <input type="radio" name="q4" value="4">d. My fingers always hurt<br>
       </div>
       <div class="question">
         <h1>How many hours do you code in a day?</h1>
-        <input type="radio" name="q5" value="a">a. 1<br>
-        <input type="radio" name="q5" value="b">b. 2<br>
-        <input type="radio" name="q5" value="c">c. 4<br>
-        <input type="radio" name="q5" value="d">d. My skin is translucent<br>
+        <input type="radio" name="q5" value="1">a. 1<br>
+        <input type="radio" name="q5" value="2">b. 2<br>
+        <input type="radio" name="q5" value="3">c. 4<br>
+        <input type="radio" name="q5" value="4">d. My skin is translucent<br>
       </div>
       <button type="submit">Submit Answers</button>
+  </div>
+  <div class="javascript">
+    <p>It looks like your more suited to JavaScript!</p>
+  </div>
+
+  <div class="Smalltalk">
+    <p>It looks like your more suited to smalltalk!</p>
+  </div>
+
+  <div class="c">
+    <p>It looks like your more suited to c#!</p>
+  </div>
+
+  <div class="python">
+    <p>It looks like your more suited to python!</p>
   </div>
 
 </body>
