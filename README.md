@@ -22,7 +22,7 @@ This is a programming language matcher. It will display the language you are mos
 * Tech 3 - GitBash
 
 ## Setup
-To download this html project click [Here](https://github.com/zerofreddo/portfolio).
+To download this html project click [Here](https://github.com/zerofreddo/programming-survey).
 
 ## Status
 This is a finished project.
