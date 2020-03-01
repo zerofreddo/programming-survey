@@ -7,6 +7,10 @@ $(document).ready(function() {
     var q4 = parseInt($("input:radio[name=q4]:checked").val());
     var q5 = parseInt($("input:radio[name=q5]:checked").val());
     var score = q1 + q2 + q3 + q4 + q5;
+    $(".javascript").hide();
+    $(".python").hide();
+    $(".c").hide();
+    $(".Smalltalk").hide();
     if (score <=5) {
       $(".javascript").show();
     } else if (score >=6 && score <=10) {
